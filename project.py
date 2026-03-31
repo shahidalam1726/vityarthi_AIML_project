@@ -7,7 +7,7 @@ import os
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)
 
-path =r'C:\Users\shahi\OneDrive\Desktop\aiml\sunglasses.png'
+path ='sunglasses.png'
 
 filter_img = cv2.imread(path, cv2.IMREAD_UNCHANGED)
 
